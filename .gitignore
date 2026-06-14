@@ -1,0 +1,12 @@
+# Chặn toàn bộ node_modules ở bất kỳ thư mục con nào
+**/node_modules/
+node_modules/
+
+# Chặn các file cấu hình môi trường bảo mật
+.env
+.env.local
+
+# Chặn log lỗi
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
